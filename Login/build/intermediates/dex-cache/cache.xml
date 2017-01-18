@@ -12,47 +12,11 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="dcad747d38e6acd599a9e7228e8c777ea84e19c7">
-        <dex dex="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/pre-dexed/debug/instant-run_d3b267c5943eea6dbf55673783c5310572cc7be0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_91644cecdab5ce6ce127e114bdbf79edd1dc2bb2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="ff5da466287ab68d69ba8725430b8aae63dc7205">
-        <dex dex="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_b7e17b69c068e15c30f503c6a1aef49b6e39ef1f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_b5bc1b4d7f2e8ed4c06fa6988d08a80588798332.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="a3cbf5f1b1d9880e2e3f9ead1adb94ceb48b4845">
+        sha1="c390050413879924268b75d889b50f2c5623541e">
         <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_37374ea0d4e1f44e6566f5276c677bea85b67d10.jar" />
     </item>
     <item
@@ -72,24 +36,6 @@
         revision="24.0.0"
         sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
         <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_65d4629dbe06aff01401998877cc1ed04adc12f4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_13ed2abd6644230fd294babf403c9bf2d0578520.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_836bc891903a13724be2cdf371b660bd220d9958.jar" />
     </item>
     <item
         is-multidex="false"
@@ -115,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="e3554543e6ee4ba73932719941515a0664b80830">
+        sha1="208884984c4249c973052042cf83feba199f9693">
         <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/instant-run_414c22b3e5a5c64fbc244257284d053bf862fd67.jar" />
     </item>
     <item
@@ -126,15 +72,6 @@
         revision="24.0.0"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
         <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_e93749388473645eaf3bed1675e9c77c6b268e06.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/KBPark/Github_Repo/Android_MyMobules/Login/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_70743b5a6404c5277fb6e5fcdff814fc5310e33a.jar" />
     </item>
 
 </items>
