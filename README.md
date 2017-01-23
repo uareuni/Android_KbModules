@@ -5,8 +5,8 @@
    <t>recent update : 2017. 1. 18 <br/>
    <t>recent content : Signup UI <br/>
 
-<img src="https://github.com/uareuni/Android_MyModules/blob/master/Login/login.png" border="0" width=300px height=500px>
-<img src="https://github.com/uareuni/Android_MyModules/blob/master/Login/signup.png" border="0" width=300px height=500px>
+<img src="https://github.com/uareuni/Android_MyModules/blob/master/KbLogin/login.png" border="0" width=300px height=500px>
+<img src="https://github.com/uareuni/Android_MyModules/blob/master/KbLogin/signup.png" border="0" width=300px height=500px>
 
 <hr />
 
