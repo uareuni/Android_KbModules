@@ -11,7 +11,58 @@
     tools:context="com.example.kbpark.kbretrofit.MainActivity">
 
     <TextView
+        android:text="Json from server"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Json to Server"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="-"
+        android:id="@+id/fromServer"
+        android:layout_width="160dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="330dp" />
+
+    <TextView
+        android:text="-"
+        android:id="@+id/toServer"
+        android:layout_width="160dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="330dp" />
+
+    <Button
+        android:text="send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/send"
+        android:onClick="onSendClicked"
+        android:layout_below="@+id/toServer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/receive"
+        android:onClick="onReceiveClicked"
+        android:layout_below="@+id/fromServer"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
