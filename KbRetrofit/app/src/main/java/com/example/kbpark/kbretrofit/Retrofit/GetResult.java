@@ -4,7 +4,7 @@ package com.example.kbpark.kbretrofit.Retrofit;
  * Created by KBPark on 2017. 1. 23..
  */
 
-public class Repo
+public class GetResult
 {
     int id;
     String name;
