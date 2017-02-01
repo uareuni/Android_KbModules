@@ -12,12 +12,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/KBPark/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="c390050413879924268b75d889b50f2c5623541e">
-        <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_37374ea0d4e1f44e6566f5276c677bea85b67d10.jar" />
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_383500773e99b2b751d765e41b326aed127f2a6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/okio-1.9.0_76dc5a1ca85f303abe603217a871d61c7b1ea9a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.0/73ccf14fba19ce2190297ac801579f3a85f1c0e8/logging-interceptor-3.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="73ccf14fba19ce2190297ac801579f3a85f1c0e8">
+        <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.4.0_e40693f3697f976989fd579a3b61f35e71b3d28f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -30,12 +48,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/KBPark/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/gson-2.6.2_504ca8931dca67eb262319f696db03619a96f689.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
         <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_65d4629dbe06aff01401998877cc1ed04adc12f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_e0a4dc88e5ae60824741540a501f6fdaffe27408.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,6 +84,42 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/KBPark/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.8/cf615176cd1177edf71d3c9605f8dc148fede6be/otto-1.3.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="cf615176cd1177edf71d3c9605f8dc148fede6be">
+        <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/otto-1.3.8_1ae67bb05d2e27f2ebd387417b1ddd3cc900cb36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d65188f20653992c76e23df8dcba224926eb2c63">
+        <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/instant-run_414c22b3e5a5c64fbc244257284d053bf862fd67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f305c471b2c6bfba0dde1afdd22e07bd4c67fb0a">
+        <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_37374ea0d4e1f44e6566f5276c677bea85b67d10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.0-beta3/8bff75d7360aaa3866f1e6949c877dfcc2b3d3e2/converter-gson-2.0.0-beta3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8bff75d7360aaa3866f1e6949c877dfcc2b3d3e2">
+        <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta3_8e9bb929bc8df331a1c5199ebab4fe556b05984e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -57,12 +129,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/KBPark/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.0/76d5ab52302434606c732539314290db91ebf25/okhttp-3.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="208884984c4249c973052042cf83feba199f9693">
-        <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/instant-run_414c22b3e5a5c64fbc244257284d053bf862fd67.jar" />
+        sha1="076d5ab52302434606c732539314290db91ebf25">
+        <dex dex="/Users/KBPark/Github_Repo/Android_Front_BeaconMonitor/FrontBeaconMonitor/app/build/intermediates/pre-dexed/debug/okhttp-3.4.0_99d35891ab8255e9360837b70a89b9456e407159.jar" />
     </item>
     <item
         is-multidex="false"
