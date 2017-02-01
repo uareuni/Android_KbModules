@@ -12,7 +12,7 @@
 
 <h2> 2. KbRetrofit </h2>
 recent update : 2017. 1. 25 <br/>
-recent content : GET & POST<br/>
+recent content : retrofit complete<br/>
 
 <img src="https://github.com/uareuni/Android_MyModules/blob/master/KbRetrofit/KbRetrofit.png" border="0" width=300px height=500px>
 
