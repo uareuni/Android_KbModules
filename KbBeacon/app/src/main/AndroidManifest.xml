@@ -16,6 +16,7 @@
         ACCESS_COARSE_LOCATION 혹은 ACCESS_FINE_LOCATION 중 1개의 권한만 필요로 합니다.
         당사에서는 ACCESS_COARSE_LOCATION 권한을 권장합니다. -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 
     <application
@@ -31,6 +32,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name="com.perples.recosdk.RECOBeaconService" />
+
+
     </application>
 
 </manifest>
