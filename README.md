@@ -17,3 +17,9 @@ recent content : GET & POST (asynchronous)<br/>
 <img src="https://github.com/uareuni/Android_MyModules/blob/master/KbRetrofit/KbRetrofit.png" border="0" width=300px height=500px>
 
 
+<hr />
+
+<h2> 3. KbBeacon </h2>
+recent update : 2017. 2. 6 <br />
+recent content : Monitoring / Ranging (foreground only)
+
