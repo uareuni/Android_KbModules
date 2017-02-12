@@ -85,6 +85,13 @@ public class MainActivity extends Activity implements RECOServiceConnectListener
         tv = (TextView) findViewById(R.id.textView);
         tv.setText("Beacon 시작 \n");
 
+//        /////////////////// RangingService 실행 ////////////////////////////////////////
+//        RecoBackgroundRangingService mService = new RecoBackgroundRangingService();
+//        Intent serviceIntent = new Intent(getApplicationContext(), RecoBackgroundRangingService.class);
+//        mService.startService(serviceIntent);
+//        ///////////////////////////////////////////////////////////////////////////
+
+
         // 1. manager setting : (공통)
         recoManager = RECOBeaconManager.getInstance(this, mScanRecoOnly, mEnableBackgroundTimeout);
         recoManager.setMonitoringListener(this);
