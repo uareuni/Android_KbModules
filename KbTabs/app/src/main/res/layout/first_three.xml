@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/layout_first_three"
+    android:layout_weight="1"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:text="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_first_three"
+        android:layout_weight="0.31" />
+</FrameLayout>
