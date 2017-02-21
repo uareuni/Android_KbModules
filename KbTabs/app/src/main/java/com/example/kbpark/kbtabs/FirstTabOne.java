@@ -14,15 +14,13 @@ import static com.example.kbpark.kbtabs.MainActivity.firstTabCurListener;
 
 public class FirstTabOne extends Fragment implements View.OnClickListener, MainActivity.onKeyBackPressedListener
 {
-
     FragmentManager manager;
 
     public FirstTabOne() {}
 
     public static FirstTabOne newInstance()
     {
-        FirstTabOne fragment = new FirstTabOne();
-        return fragment;
+        return new FirstTabOne();
     }
 
     @Override
@@ -72,15 +70,17 @@ public class FirstTabOne extends Fragment implements View.OnClickListener, MainA
 
     // 참고로, 지금 내 경우는 FirstTabOne이랑 SecondTabOne에 있는 layout에다가 fragment들을 붙이고 있는 상황이라
     // 해당 두 Fragment들에서만 setUserVisibleHint가 먹는것 같다.
+
+
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser)
     {
         if(isVisibleToUser)
         {
-            MainActivity.setCurTab(Cons.TAB1);
+            // MainActivity.setCurTab(Cons.TAB1); // 사실 얘는 이제 무쓸모
             // Log.d("TEST", "cur tab : " + MainActivity.getCurTab());
 
-            // listener 가져오기
+            // listener set
             if(getContext()!=null)
             {
                 ((MainActivity) getContext()).setOnKeyBackPressedListener(firstTabCurListener);

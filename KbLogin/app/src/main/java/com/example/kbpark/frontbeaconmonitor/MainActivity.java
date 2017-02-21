@@ -30,14 +30,14 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick(R.id.register_click_btn)
+    @OnClick(R.id.btn_register)
     void onRegisterClicked()
     {
         Intent intent = new Intent(getApplicationContext(), Register.class); // to Register
         startActivity(intent);
     }
 
-    @OnClick(R.id.login_btn)
+    @OnClick(R.id.btn_login)
     void onSignUpClicked()
     {
         final String email = login_email.getText().toString();
@@ -54,9 +54,13 @@ public class MainActivity extends AppCompatActivity {
 
         if(isValidEmail(email) && isValidPassword(pass))
         {
-            // Validation Completed
-            User user = new User(email, pass);
-            String loginRes = user.login(); // 실제로 login이 일어나는 부분
+            /**
+                // Validation Completed
+                User user = new User(email, pass);
+                String loginRes = user.login(); // 실제로 login 통신이 포함된 부분
+             */
+
+            startActivity(new Intent(getApplicationContext(), LoginMain.class));
         }
 
     }

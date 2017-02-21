@@ -1,47 +1,31 @@
-package com.example.kbpark.kbtabs;
+package com.example.kbpark.frontbeaconmonitor;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 
+import com.example.kbpark.frontbeaconmonitor.tabs.CustomViewPager;
+import com.example.kbpark.frontbeaconmonitor.tabs.TabsPagerAdapter;
+
 /**
- fragment를 control하는데 back stack을 control하는게 더 힘들것 같아서
- 나는 back key를 뺐아와서 수동으로 조작하는 방법을 썼는데,
- 잘 생각해보면 사실 (tab이 2개인 이 project에서는) back key를 뺐아오는 listener는 하나의 tab에 대해서만 적용되도 독립적으로 동작하는 것을 알 수 있다.
- (나머지 tab은 stack을 혼자 쓰게 되는 것이니까.)
-
- 그러나 tab이 3개, 4개 확장될 상황까지 고려하여
- 두개의 tab에 back key를 뺐아오는 listener를 놔뒀다.
-
- + 리펙토링을 좀더 할까했는데, 나중에도 읽기 쉽게 하기위해 중복되더라도 일단은 그냥 뒀다.
+ * Created by KBPark on 2017. 2. 16..
  */
 
-
-public class MainActivity extends AppCompatActivity
+public class LoginMain extends AppCompatActivity
 {
     @Override
-    protected void onCreate(Bundle savedInstanceState)
+    public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.login_main);
 
         TabLayout tabs = (TabLayout) findViewById(R.id.tabs);
         CustomViewPager pager = (CustomViewPager) findViewById(R.id.pager);
         pager.setPagingEnabled(false); // page touch sliding disabled
-
         TabsPagerAdapter adapter = new TabsPagerAdapter(getSupportFragmentManager());
-
         pager.setAdapter(adapter);
         tabs.setupWithViewPager(pager);
     }
-
-//    /** current tab navigator **/
-//    public static String CUR_TAB = "";
-//    public static void setCurTab(String curTab)
-//    {
-//        CUR_TAB = curTab;
-//    }
-//    public static String getCurTab() { return CUR_TAB; }
 
 
     /***** back key 받아먹기 리스너 등록 *****/
@@ -50,8 +34,8 @@ public class MainActivity extends AppCompatActivity
     }
 
     private onKeyBackPressedListener mOnKeyBackPressedListener;
-    public static onKeyBackPressedListener firstTabCurListener;
-    public static onKeyBackPressedListener secondTabCurListener;
+    public static onKeyBackPressedListener saleTabCurListener;
+    public static onKeyBackPressedListener couponTabCurListener;
 
     public void setOnKeyBackPressedListener(onKeyBackPressedListener listener)
     {

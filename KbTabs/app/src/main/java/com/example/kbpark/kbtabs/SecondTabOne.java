@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import static com.example.kbpark.kbtabs.Cons.TAB2;
 import static com.example.kbpark.kbtabs.MainActivity.secondTabCurListener;
 
 /**
@@ -64,8 +63,6 @@ public class SecondTabOne extends Fragment implements View.OnClickListener, Main
         secondTabCurListener = this;
     }
 
-
-
     // 참고로, 지금 내 경우는 FirstTabOne이랑 SecondTabOne에 있는 layout에다가 fragment들을 붙이고 있는 상황이라
     // 해당 두 Fragment들에서만 setUserVisibleHint가 먹는것 같다.
     @Override
@@ -73,7 +70,7 @@ public class SecondTabOne extends Fragment implements View.OnClickListener, Main
     {
         if(isVisibleToUser)
         {
-            MainActivity.setCurTab(TAB2);
+            // MainActivity.setCurTab(TAB2);
             // Log.d("TEST", "cur tab : " + MainActivity.getCurTab());
 
             // listener 가져오기

@@ -20,4 +20,7 @@ public class Cons
 
     public static final int MIN_PASSWORD = 4;
 
+    public static final String FIRST_TITLE_NAME = "TAP1";
+    public static final String SECOND_TITLE_NAME = "TAB2";
+
 }
