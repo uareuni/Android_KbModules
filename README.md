@@ -2,8 +2,8 @@
 <br/>
 
 <h2> 1. KbLogin </h2>
-   <t>recent update : 2017. 2. 13 <br/>
-   <t>recent content : retrofit complete <br/>
+   <t>recent update : 2017. 2. 22 <br/>
+   <t>recent content : design edit, tab add <br/>
 
 <img src="https://github.com/uareuni/Android_MyModules/blob/master/KbLogin/login.png" border="0" width=300px height=500px>
 <img src="https://github.com/uareuni/Android_MyModules/blob/master/KbLogin/signup.png" border="0" width=300px height=500px>
