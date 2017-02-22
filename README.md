@@ -28,7 +28,7 @@ recent content : Monitoring / Ranging (foreground only)
 
 <h2> 4. KbTabs </h2>
 : independent TabLayout with ViewPager
-recent update : 2017. 2. 21 <br />
+recent update : 2017. 2. 23 <br />
 recent content : tab sliding animation false. 
 
 <img src="https://github.com/uareuni/Android_KbModules/blob/master/KbTabs/tabs.png" border="0" width=300px height=500px>
